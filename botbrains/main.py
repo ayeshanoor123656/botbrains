@@ -9,72 +9,64 @@ app = FastAPI()
 # ---------------- CORS ----------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # for hackathon ease
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# ---------------- LOAD DATA ----------------
+# ---------------- LOAD FILES ----------------
 
 def load_students():
-    with open("students.json") as f:
+    with open("students.json", "r") as f:
         return json.load(f)
 
 def load_emails():
-    with open("emails.json") as f:
+    with open("parsed_emails.json", "r") as f:
         return json.load(f)
 
 
-# ---------------- MOCK EXTRACTION (TEMP) ----------------
-# ⚠️ Replace this with your friend's function later
-
-def mock_extract(email):
-    body = email["body"].lower()
-
-    return {
-        "title": email["subject"],
-        "type": "internship" if "internship" in body else
-                "scholarship" if "scholarship" in body else
-                "competition" if "competition" in body else
-                "fellowship" if "fellowship" in body else "other",
-
-        "deadline": "2026-04-20",  # temporary (replace later)
-        "min_cgpa": 3.0,
-        "skills_required": ["python"],
-        "location": "remote",
-        "documents_required": ["cv"]
-    }
-
-
-# ---------------- MAIN API ----------------
+# ---------------- HOME ----------------
 
 @app.get("/")
 def home():
-    return {"message": "Opportunity Ranking API Running 🚀"}
+    return {
+        "message": "Opportunity Inbox Copilot API 🚀"
+    }
 
+
+# ---------------- GET ALL STUDENTS ----------------
+
+@app.get("/students")
+def get_students():
+    return load_students()
+
+
+# ---------------- RANK OPPORTUNITIES ----------------
 
 @app.get("/rank/{student_id}")
 def rank(student_id: str):
+
     students = load_students()
     emails = load_emails()
 
-    # ---------- Find student ----------
+    # ---------- find student ----------
     student = next((s for s in students if s["id"] == student_id), None)
 
     if not student:
         return {"error": "Student not found"}
 
-    # ---------- Run extraction ----------
-    for email in emails:
-        if email["isOpportunity"]:
-            # Replace this with real extraction later
-            email["structured"] = mock_extract(email)
-
-    # ---------- Run ranking ----------
+    # ---------- run ranking ----------
     ranked = rank_opportunities(student, emails)
 
     return {
-        "student": student["name"],
-        "results": ranked
+        "student": student,
+        "total_opportunities": len(ranked),
+        "top_3": ranked[:3],
+        "buckets": {
+            "apply_now": [r for r in ranked if r["priority"] == "🔥 Apply Now"],
+            "apply_soon": [r for r in ranked if r["priority"] == "⏳ Apply Soon"],
+            "not_suitable": [r for r in ranked if r["priority"] == "❌ Not Suitable"]
+        },
+        "all_ranked": ranked
     }
