@@ -59,7 +59,7 @@ def extract_type(subject, body):
 
 
 # -----------------------------------
-# Detect Opportunity
+# Detect if Opportunity
 # -----------------------------------
 def detect_opportunity(subject, body):
     text = (subject + " " + body).lower()
@@ -146,24 +146,21 @@ def extract_benefits(text):
 
 
 # -----------------------------------
-# Manual Email Parsing
+# Main Email Parsing Function
 # -----------------------------------
 def parse_email(email):
     subject = email["subject"]
     body = email["body"]
 
     parsed = {
+        "id": email["id"],
         "title": subject,
         "type": extract_type(subject, body),
-        "organization": "",
         "deadline": extract_deadline(body),
-        "eligibility": [],
         "required_documents": extract_required_documents(body),
-        "location": "",
         "benefits": extract_benefits(body),
         "application_link": extract_url(body),
         "contact_info": extract_email(body),
-        "urgency_level": "",
         "isOpportunity": detect_opportunity(subject, body)
     }
 
@@ -180,17 +177,20 @@ with open("email.json", "r", encoding="utf-8") as file:
 # -----------------------------------
 # Parse All Emails
 # -----------------------------------
+parsed_emails = []
+
 for email in emails:
     print(f"Parsing Email ID: {email['id']}")
 
-    email["structured"] = parse_email(email)
+    parsed_result = parse_email(email)
+    parsed_emails.append(parsed_result)
 
 
 # -----------------------------------
-# Save Output File
+# Save Output
 # -----------------------------------
 with open("parsed_emails.json", "w", encoding="utf-8") as file:
-    json.dump(emails, file, indent=4, ensure_ascii=False)
+    json.dump(parsed_emails, file, indent=4, ensure_ascii=False)
 
 
 print("Parsing completed successfully!")

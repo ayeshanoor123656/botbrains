@@ -2,106 +2,76 @@
   {
     "id": 1,
     "subject": "Applications Open – Google Summer Internship Program 2026",
-    "body": "Applications are now open for the Google Summer Internship Program 2026 for undergraduate Computer Science students. This is a paid remote internship for students interested in Software Engineering, AI, and Cloud Computing. Eligibility: BS Computer Science / Software Engineering students, Minimum CGPA: 3.0, Strong programming skills in Python, Java, or C++, Good problem-solving skills. Required Documents: Updated CV, Academic Transcript, Cover Letter. Deadline: 20 April 2026. Apply here: https://careers.google.com/internships",
-    "isOpportunity": true,
-    "structured": null
+    "body": "Applications are now open for the Google Summer Internship Program 2026 for undergraduate Computer Science students. This is a paid remote internship for students interested in Software Engineering, AI, and Cloud Computing. Eligibility: BS Computer Science / Software Engineering students, Minimum CGPA: 3.0, Strong programming skills in Python, Java, or C++, Good problem-solving skills. Required Documents: Updated CV, Academic Transcript, Cover Letter. Deadline: 20 April 2026. Apply here: https://careers.google.com/internships"
   },
   {
     "id": 2,
     "subject": "Merit Scholarship for High Achieving Students",
-    "body": "The National Merit Scholarship Program is offering fully funded scholarships for students with outstanding academic records. Benefits: Full tuition fee coverage, Monthly stipend, Research grant support. Eligibility: Minimum CGPA: 3.5, Financial need preferred, Full-time enrolled student. Required Documents: Transcript, Income Certificate, Personal Statement, Recommendation Letter. Deadline: 18 April 2026. Contact: scholarships@nsp.org",
-    "isOpportunity": true,
-    "structured": null
+    "body": "The National Merit Scholarship Program is offering fully funded scholarships for students with outstanding academic records. Benefits: Full tuition fee coverage, Monthly stipend, Research grant support. Eligibility: Minimum CGPA: 3.5, Financial need preferred, Full-time enrolled student. Required Documents: Transcript, Income Certificate, Personal Statement, Recommendation Letter. Deadline: 18 April 2026. Contact: scholarships@nsp.org"
   },
   {
     "id": 3,
     "subject": "Registration Open – ACM Programming Contest 2026",
-    "body": "FAST-NU is organizing the ACM Programming Contest 2026 for students interested in competitive programming. Eligibility: Any undergraduate student, Teams of 3 members. Benefits: Cash Prize, Internship opportunities, Certificates. Required: Team registration form, Student ID cards. Deadline: 25 April 2026. Venue: FAST Lahore Campus",
-    "isOpportunity": true,
-    "structured": null
+    "body": "FAST-NU is organizing the ACM Programming Contest 2026 for students interested in competitive programming. Eligibility: Any undergraduate student, Teams of 3 members. Benefits: Cash Prize, Internship opportunities, Certificates. Required: Team registration form, Student ID cards. Deadline: 25 April 2026. Venue: FAST Lahore Campus"
   },
   {
     "id": 4,
     "subject": "Student Exchange Opportunity – Erasmus+ 2026",
-    "body": "Applications are invited for the Erasmus+ Semester Exchange Program in Europe. Eligibility: Minimum CGPA: 3.2, Completed at least 4 semesters, Good English proficiency. Benefits: Tuition waiver, Travel support, Monthly living stipend. Required Documents: Passport, Transcript, Motivation Letter, IELTS/English Proficiency Proof. Deadline: 30 April 2026.",
-    "isOpportunity": true,
-    "structured": null
+    "body": "Applications are invited for the Erasmus+ Semester Exchange Program in Europe. Eligibility: Minimum CGPA: 3.2, Completed at least 4 semesters, Good English proficiency. Benefits: Tuition waiver, Travel support, Monthly living stipend. Required Documents: Passport, Transcript, Motivation Letter, IELTS/English Proficiency Proof. Deadline: 30 April 2026."
   },
   {
     "id": 5,
     "subject": "Research Assistant Required for AI Lab",
-    "body": "The Artificial Intelligence Research Lab is hiring Research Assistants for Summer 2026. Eligibility: Strong Python knowledge, Machine Learning background, Minimum CGPA: 3.2. Responsibilities: Data preprocessing, Model training, Research paper assistance. Required: CV, Transcript, GitHub Profile. Deadline: 22 April 2026. Email applications to: ailab@university.edu",
-    "isOpportunity": true,
-    "structured": null
+    "body": "The Artificial Intelligence Research Lab is hiring Research Assistants for Summer 2026. Eligibility: Strong Python knowledge, Machine Learning background, Minimum CGPA: 3.2. Responsibilities: Data preprocessing, Model training, Research paper assistance. Required: CV, Transcript, GitHub Profile. Deadline: 22 April 2026. Email applications to: ailab@university.edu"
   },
   {
     "id": 6,
     "subject": "Reminder – Cybersecurity Awareness Webinar Tomorrow",
-    "body": "This is a reminder that the Cybersecurity Awareness Webinar will be held tomorrow at 2 PM in the main auditorium. Attendance is optional. No registration required.",
-    "isOpportunity": false,
-    "structured": null
+    "body": "This is a reminder that the Cybersecurity Awareness Webinar will be held tomorrow at 2 PM in the main auditorium. Attendance is optional. No registration required."
   },
   {
     "id": 7,
     "subject": "Attendance Shortage Notice",
-    "body": "Your attendance in Database Systems has fallen below the required threshold. Please contact your course instructor immediately.",
-    "isOpportunity": false,
-    "structured": null
+    "body": "Your attendance in Database Systems has fallen below the required threshold. Please contact your course instructor immediately."
   },
   {
     "id": 8,
     "subject": "Become a Microsoft Learn Student Ambassador",
-    "body": "Applications are open for the Microsoft Learn Student Ambassador Program 2026. Benefits: Microsoft mentorship, Global networking, Free certifications, Leadership opportunities. Eligibility: Passion for technology, Community leadership, Strong communication skills. Required: Application form, LinkedIn Profile, Short motivation essay. Deadline: 28 April 2026. Apply: https://studentambassadors.microsoft.com",
-    "isOpportunity": true,
-    "structured": null
+    "body": "Applications are open for the Microsoft Learn Student Ambassador Program 2026. Benefits: Microsoft mentorship, Global networking, Free certifications, Leadership opportunities. Eligibility: Passion for technology, Community leadership, Strong communication skills. Required: Application form, LinkedIn Profile, Short motivation essay. Deadline: 28 April 2026. Apply: https://studentambassadors.microsoft.com"
   },
   {
     "id": 9,
     "subject": "Fully Funded Masters Admission in Germany",
-    "body": "Applications are open for fully funded MS scholarships in Germany for Fall 2026 intake. Eligibility: Final year students or graduates, Strong academic record, IELTS preferred. Benefits: Tuition covered, Monthly stipend, Health insurance. Required: Passport, CV, SOP, Recommendation Letters. Deadline: 15 May 2026. Contact: admissions@germanedu.org",
-    "isOpportunity": true,
-    "structured": null
+    "body": "Applications are open for fully funded MS scholarships in Germany for Fall 2026 intake. Eligibility: Final year students or graduates, Strong academic record, IELTS preferred. Benefits: Tuition covered, Monthly stipend, Health insurance. Required: Passport, CV, SOP, Recommendation Letters. Deadline: 15 May 2026. Contact: admissions@germanedu.org"
   },
   {
     "id": 10,
     "subject": "Volunteers Needed for DevFest Lahore 2026",
-    "body": "GDG Lahore is inviting volunteers for DevFest Lahore 2026. Benefits: Networking, Event certificates, Industry exposure. Eligibility: Interest in tech events, Good teamwork skills. Required: Registration form. Deadline: 24 April 2026. Venue: Lahore Expo Center",
-    "isOpportunity": true,
-    "structured": null
+    "body": "GDG Lahore is inviting volunteers for DevFest Lahore 2026. Benefits: Networking, Event certificates, Industry exposure. Eligibility: Interest in tech events, Good teamwork skills. Required: Registration form. Deadline: 24 April 2026. Venue: Lahore Expo Center"
   },
   {
     "id": 11,
     "subject": "Library Fine Pending",
-    "body": "You have an overdue library fine of Rs. 850. Please clear the dues before next week.",
-    "isOpportunity": false,
-    "structured": null
+    "body": "You have an overdue library fine of Rs. 850. Please clear the dues before next week."
   },
   {
     "id": 12,
     "subject": "Startup Pitch Competition – Win Seed Funding",
-    "body": "Entrepreneurship Society invites applications for the Startup Pitch Competition 2026. Benefits: Seed funding up to Rs. 200,000, Mentorship, Investor access. Eligibility: Innovative startup idea, Team participation allowed. Required: Pitch deck, Registration form. Deadline: 27 April 2026. Venue: Innovation Center",
-    "isOpportunity": true,
-    "structured": null
+    "body": "Entrepreneurship Society invites applications for the Startup Pitch Competition 2026. Benefits: Seed funding up to Rs. 200,000, Mentorship, Investor access. Eligibility: Innovative startup idea, Team participation allowed. Required: Pitch deck, Registration form. Deadline: 27 April 2026. Venue: Innovation Center"
   },
   {
     "id": 13,
     "subject": "Congratulations on Dean’s List Achievement",
-    "body": "Congratulations! You have been placed on the Dean’s List for Spring 2026. Keep up the excellent work.",
-    "isOpportunity": false,
-    "structured": null
+    "body": "Congratulations! You have been placed on the Dean’s List for Spring 2026. Keep up the excellent work."
   },
   {
     "id": 14,
     "subject": "UNICEF Youth Fellowship Applications Open",
-    "body": "Applications are open for the UNICEF Youth Fellowship Program for students passionate about social impact and leadership. Benefits: Monthly stipend, International mentorship, Leadership training. Eligibility: Undergraduate students, Strong leadership potential, Community engagement preferred. Required: CV, Personal Statement, Recommendation Letter. Deadline: 29 April 2026. Apply through: https://unicef.org/fellowship",
-    "isOpportunity": true,
-    "structured": null
+    "body": "Applications are open for the UNICEF Youth Fellowship Program for students passionate about social impact and leadership. Benefits: Monthly stipend, International mentorship, Leadership training. Eligibility: Undergraduate students, Strong leadership potential, Community engagement preferred. Required: CV, Personal Statement, Recommendation Letter. Deadline: 29 April 2026. Apply through: https://unicef.org/fellowship"
   },
   {
     "id": 15,
     "subject": "Final Exam Schedule Released",
-    "body": "The final examination schedule for Spring 2026 has been uploaded to the student portal. Please check your exam timings carefully.",
-    "isOpportunity": false,
-    "structured": null
+    "body": "The final examination schedule for Spring 2026 has been uploaded to the student portal. Please check your exam timings carefully."
   }
 ]
